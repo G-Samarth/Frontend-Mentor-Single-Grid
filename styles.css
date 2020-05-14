@@ -15,10 +15,6 @@ h2{
   margin-bottom: 1rem;
 }
 
-.shrink{
-  transform: scale(0.7);
-}
-
 /* DIV 1 */
 .div1{
   background-color: #FFF;
