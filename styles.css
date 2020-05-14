@@ -1,0 +1,99 @@
+body{
+  font-family: 'Karla', sans-serif;
+  color: #FFF;
+  background: hsl(204, 43%, 93%);
+  padding-top: 3%;
+}
+
+section.container{
+  max-width: 50%; /*Wasn't able to overwrite w-50(Bootstrap) so used this*/
+}
+
+h2{
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.shrink{
+  transform: scale(0.7);
+}
+
+/* DIV 1 */
+.div1{
+  background-color: #FFF;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.div1 h1{
+  color: #4ABEBD;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.div1 h2{
+  color: #BFDF32;
+}
+
+.div1 p{
+  color: hsl(218, 22%, 67%);
+  font-size: 1.1rem;
+}
+
+/* DIV 2 */
+
+.div2{
+  background: #2BB3B1;
+}
+@media (min-width: 400px) {  /*Wasn't able to overwrite border-radius for mobile screen*/
+  .div2{
+    border-bottom-left-radius: 1rem;
+  }
+}
+
+.div2 .btn{
+  background-color: #BFDF32;
+  color: #FFF;
+  font-weight: 700;
+  box-shadow: 2px 3px 5px grey;
+}
+
+.div2 span{
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-right: 0.7rem;
+}
+
+.div2 p{
+  line-height: 2;
+}
+
+.perMon{
+  font-weight: lighter;
+  opacity: 0.8;
+  display: inline;
+}
+
+/* DIV 3 */
+
+.div3{
+  background-color: #4ABEBD;
+  border-bottom-right-radius: 1rem;
+}
+
+.div3 p{
+  line-height: 0.5;
+  opacity: 0.8;
+}
+
+/* Media Query for mobile screen */
+@media(max-width: 400px){
+
+    section.container{
+      max-width: 100%;
+    }
+
+    .div3{
+      border-bottom-left-radius: 1rem;
+    }
+}
