@@ -2,7 +2,7 @@ body{
   font-family: 'Karla', sans-serif;
   color: #FFF;
   background: hsl(204, 43%, 93%);
-  padding-top: 7%;
+  padding-top: 8%;
 }
 
 section.container{
@@ -16,7 +16,7 @@ h2{
 }
 
 .shrink{
-  transform: scale(0.8);
+  transform: scale(0.9);
 }
 
 /* DIV 1 */
